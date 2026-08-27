@@ -1,0 +1,15 @@
+构建名称: RustedWarfare_v1.15_build176_CN_20260827_201800
+构建时间: 2026-08-27 20:18:31
+目标版本: Rusted Warfare v1.15 (build 176)
+包含文件: 1870
+未压缩大小: 462.3 MB
+压缩包大小: 221.3 MB
+本版本包含的修改:
+1. 全量汉化: GUI(rml) + 地图(tmx) + 语言文件(properties) + 单位ini + 内置mod
+2. 中文字体: 思源黑体(NotoSansCJKsc)
+3. 默认全屏: preferences.ini slick2dFullScreen=true
+4. 窗口缩放崩溃修复: u.class 移除 setResizable(false/true) 连续调用 (nop 填充)
+5. Steam 脱离: 主程序字节码补丁
+6. RML title 修复: help/credits/help_quick_mobile/help_unitstats 页面标题更正
+7. common.rcss 字体修复: body font-family Delicious->notoSans, font-charset 增加 CJK 范围
+8. 主程序 jar 完整性: CRC 0 错误, 1698 类
